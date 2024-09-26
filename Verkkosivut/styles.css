@@ -25,12 +25,36 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+.linnunrata1 {
+  height: 400px;
+  border-radius: 10px;
+}
 .textContainer {
   margin: auto;
+  line-height: 25px;
   align-self: center;
   display: flex;
-
+  flex-direction: column;
   width: 800px;
   background-color: black;
   color: antiquewhite;
+
+  border-radius: 10px;
+}
+.navigation {
+  background-color: rgb(23, 23, 67);
+  color: antiquewhite;
+  height: 80px;
+  width: 170px;
+  margin-top: 30px;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-family: "Oswald";
+  font-size: larger;
+  font-weight: 200;
+}
+.navigation:hover {
+  background-color: rgb(59, 59, 132);
+  color: rgb(193, 185, 174);
 }
