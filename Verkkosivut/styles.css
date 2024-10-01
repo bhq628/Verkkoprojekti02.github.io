@@ -10,6 +10,14 @@ h1 {
   font-size: 50px;
   font-weight: 300;
 }
+h2 {
+  color: antiquewhite;
+  font-family: "Oswald";
+  font-size: 25px;
+  font-weight: 300;
+  text-shadow: 2px 2px 2px rgb(97, 97, 203);
+
+}
 .logoContainer {
   display: flex;
   flex-direction: row;
@@ -71,14 +79,21 @@ h1 {
   background-color: rgb(5, 27, 59);
 }
 table {
-font-family: Oswald;
+font-family: "Oswald";
 border-collapse: collapse;
 width: 100%;
+
 }
 td, th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
+  font-family: "Oswald";
+  background-color: antiquewhite;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 2px 2px 2px rgb(97, 97, 203);
 }
 tr:nth-child(even) {
   background-color: #ddddddc4;
