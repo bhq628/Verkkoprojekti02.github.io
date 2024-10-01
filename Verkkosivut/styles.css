@@ -70,3 +70,16 @@ h1 {
   color: whitesmoke;
   background-color: rgb(5, 27, 59);
 }
+table {
+font-family: Oswald;
+border-collapse: collapse;
+width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #ddddddc4;
+}
