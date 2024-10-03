@@ -47,7 +47,7 @@ h2 {
 
   height: fit-content;
   width: 70vw;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   background-color: black;
   color: antiquewhite;
   border: 5px solid rgb(15, 8, 52);
@@ -92,20 +92,13 @@ h2 {
   font-weight: 100;
 }
 table {
-<<<<<<< HEAD
   font-family: Oswald;
   border-collapse: collapse;
   width: 90%;
   margin: auto;
-=======
-font-family: "Oswald";
-border-collapse: collapse;
-width: 90%;
-margin: auto;
-
->>>>>>> 4abdf11 (muutoksia)
 }
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 10px;
@@ -118,11 +111,8 @@ td, th {
 tr:nth-child(even) {
   background-color: #ddddddc4;
 }
-  .planeetta {
+.planeetta {
   width: 120px;
   height: 100px;
-border-radius:  20%;
-
+  border-radius: 20%;
 }
-
-
