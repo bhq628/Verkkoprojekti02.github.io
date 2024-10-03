@@ -111,3 +111,8 @@ th {
 tr:nth-child(even) {
   background-color: #ddddddc4;
 }
+.planeetta {
+  width: 120px;
+  height: 100px;
+  border-radius: 20%;
+}
