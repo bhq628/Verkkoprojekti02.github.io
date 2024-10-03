@@ -13,19 +13,25 @@
     <header class="header">
       <div class="logoContainer" onclick="document.location='index.html'">
         <img src="linnunratalogo1.jpg" class="logo1" />
+        <h1 class="logotxt">LINNUNRATA</h1>
       </div>
-      <button class="navigation">Aurinkokuntamme Planeetat</button>
+      <button class="navigation">Aurinkokuntamme Planeetat</button
+      ><button class="navigation" onclick="document.location='Sivu3.html'">
+        Sivu 3
+      </button>
     </header>
-    <h1 class="logotxt" style="text-align: center">
-      AURINKOKUNTAMME PLANEETAT
-    </h1>
-    <h2 style="text-align: center">
-      Aurinkokunnassamme on kahdeksan aurinkoa kiertävää planeettaa.
-    </h2>
-    <h2 style="text-align: center">
-      Alla oleva taulukko kertoo aurinkokuntamme planeettojen nimet, pinta-alat,
-      sekä etäisyydet auringosta.
-    </h2>
+    <div class="textContainer">
+      <h1 class="logotxt" style="text-align: center">
+        Aurinkokuntamme planeetat
+      </h1>
+      <h2 style="text-align: center; text-shadow: none">
+        Aurinkokunnassamme on kahdeksan aurinkoa kiertävää planeettaa.
+      </h2>
+      <h2 style="text-align: center; text-shadow: none">
+        Alla oleva taulukko kertoo aurinkokuntamme planeettojen nimet,
+        pinta-alat, sekä etäisyydet auringosta.
+      </h2>
+    </div>
     <br />
     <table>
       <tr>
@@ -39,54 +45,76 @@
         <td>Merkurius</td>
         <td>74 800 000 km²</td>
         <td>58 000 000 km</td>
-        <td><img src="merkurius.jpg" alt="merkurius" class="merkurius" /></td>
+        <td>
+          <img
+            src="merkuriusMod-modified.png"
+            alt="merkurius"
+            class="planeetta"
+          />
+        </td>
       </tr>
 
       <tr>
         <td>Venus</td>
         <td>460 200 000 km²</td>
         <td>108 200 000 km</td>
-        <td><img src="venus.jpg" alt="venus" class="planeetta" /></td>
+        <td>
+          <img src="venusMod-modified.png" alt="venus" class="planeetta" />
+        </td>
       </tr>
 
       <tr>
         <td>Maa</td>
         <td>510 100 000 km²</td>
         <td>149 600 000 km</td>
-        <td><img src="maa.jpg" alt="maa" class="planeetta" /></td>
+        <td><img src="maaMod-modified.png" alt="maa" class="planeetta" /></td>
       </tr>
 
       <tr>
         <td>Mars</td>
         <td>144 400 000 km²</td>
         <td>227 900 000 km</td>
-        <td><img src="mars.jpg" alt="mars" class="planeetta" /></td>
+        <td><img src="marsMod-modified.png" alt="mars" class="planeetta" /></td>
       </tr>
 
       <td>Jupiter</td>
       <td>6,142E10 km²</td>
       <td>778 500 000 km</td>
       <td>
-        <img src="Jupiter.jpg" alt="jupiter" class="planeetta" />
+        <img src="JupiterMod-modified.png" alt="jupiter" class="planeetta" />
         <tr>
           <td>Saturnus</td>
           <td>4,27E10 km²</td>
           <td>1,434E9 km</td>
-          <td><img src="Saturnus.jpg" alt="saturnus" class="planeetta" /></td>
+          <td>
+            <img
+              src="SaturnusMod-modified.png"
+              alt="saturnus"
+              class="planeetta"
+            />
+          </td>
         </tr>
 
         <tr>
           <td>Uranus</td>
           <td>8,083E9 km²</td>
           <td>2,871E9 km</td>
-          <td><img src="Uranus.jpg" alt="uranus" class="planeetta" /></td>
+          <td>
+            <img src="UranusMod-modified.png" alt="uranus" class="planeetta" />
+          </td>
         </tr>
 
         <tr>
           <td>Neptunus</td>
           <td>7,618E9 km²</td>
           <td>4,495E9 km</td>
-          <td><img src="Neptunus.jpg" alt="neptunus" class="planeetta" /></td>
+          <td>
+            <img
+              src="Neptunus-modified-modified.png"
+              alt="neptunus"
+              class="planeetta"
+            />
+          </td>
         </tr>
       </td>
     </table>
@@ -94,7 +122,12 @@
     <footer class="footer">
       <div
         class="footerContainer1"
-        style="display: flex; flex-direction: column"
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        "
       >
         <p>Nicholas Mononen - Sivun ylläpitäjä</p>
         <p>linnun.rata@gmail.com</p>
@@ -102,7 +135,12 @@
       <h2>OTA YHTEYTTÄ</h2>
       <div
         class="footerContainer1"
-        style="display: flex; flex-direction: column"
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        "
       >
         <p>Tommi Rajamäki - Tähtitietelijä</p>
         <p>Puh. 050 123 6547</p>
