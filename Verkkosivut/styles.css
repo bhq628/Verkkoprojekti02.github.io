@@ -11,8 +11,11 @@ h1 {
   font-weight: 300;
 }
 h2 {
+  color: antiquewhite;
   font-family: "Oswald";
-  font-weight: 100;
+  font-size: 25px;
+  font-weight: 300;
+  text-shadow: 2px 2px 2px rgb(97, 97, 203);
 }
 .logoContainer {
   display: flex;
@@ -98,7 +101,12 @@ td,
 th {
   border: 1px solid #dddddd;
   text-align: center;
-  padding: 8px;
+  padding: 10px;
+  font-family: "Oswald";
+  color: antiquewhite;
+  font-size: 28px;
+  font-weight: 300;
+  text-shadow: 2px 2px 2px rgb(97, 97, 203);
 }
 tr:nth-child(even) {
   background-color: #ddddddc4;
