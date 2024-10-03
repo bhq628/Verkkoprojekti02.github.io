@@ -1,92 +1,160 @@
 <!--TEKEMÄTTÄ: Tee lista, lisää kuvia ja niille tekstiä, navigointi, header, footer.-->
 <!DOCTYPE html>
 <html lang="fi">
-<head>
+  <head>
     <!--Meta description, Keywords-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, CSS, projekti">
-    <meta name="description" content="Linnunrata, nettisivu avaruudesta">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, projekti" />
+    <meta name="description" content="Linnunrata, nettisivu avaruudesta" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Linnunrata</title>
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
-      </style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+    </style>
 
     <!-- fontti, <p> väri-->
     <style>
-    body {
-      font-family: "Oswald";
-      color: rgb(220, 236, 236);
-    }
+      body {
+        font-family: "Oswald";
+        color: rgb(220, 236, 236);
+      }
     </style>
-
-    
 
     <!--Kuvan asetukset-->
     <style>
-        .img_right {
-            float: right;
-            width: auto;
-        }
-        .pos_center {
-            position: absolute;
-            width: 85%;
-            left: 20%;
-            top: 20%;
-        }
-    </style>
+      .img_right {
+        float: right;
+        height: 150px;
+        width: 200px;
 
-</head>
-<body>
+        margin-left: 10vw;
+      }
+      .pos_center {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        width: 85%;
+      }
+    </style>
+  </head>
+  <body>
     <!--Taustakuva, Logo, h1, sivun nimi/ensimmäinen otsikko-->
     <header class="header">
-        <div class="logoContainer">
-          <img src="linnunratalogo1.jpg" class="logo1" />
-          <h1 class="logotxt">LINNUNRATA</h1>
-        </div>
-        <button class="navigation">Aurinkokuntamme Planeetat</button>
-      </header>
+      <div class="logoContainer" onclick="document.location='index.html'">
+        <img src="linnunratalogo1.jpg" class="logo1" />
+        <h1 class="logotxt">LINNUNRATA</h1>
+      </div>
+      <button class="navigation" onclick="document.location='Sivu2.html'">
+        Aurinkokuntamme Planeetat
+      </button>
+      <button class="navigation" onclick="document.location='Sivu3.html'">
+        Sivu 3
+      </button>
+    </header>
 
     <!--h2/otsikko 2-->
-    
+
     <h2>OTSIKKO 2</h2>
-    
+
     <p>Tällä sivulla kerrotaan näistä asioista:</p>
     <ul>
-        <li>Exoplaneetta 42 Dragonis b</li>
-        <li>eksoplaneetta 47 Ursae Majoris b</li>
-        <li>BD+14 4559 b</li>
-        <li>numero_4</li>
-        <li>numero_5</li>
+      <li>Exoplaneetta 42 Dragonis b</li>
+      <li>eksoplaneetta 47 Ursae Majoris b</li>
+      <li>BD+14 4559 b</li>
+      <li>numero_4</li>
+      <li>numero_5</li>
     </ul>
 
     <!--Kuvat ja niiden teksti-->
     <div class="pos_center">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.
+      </p>
+      <img
+        class="img_right"
+        src="42_Dragonis_b-modified.png"
+        alt="Exoplaneetta 42 Dragonis b"
+      />
 
-        <img class="img_right" src="42_Dragonis_b.png" width="240" height="240" 
-        alt="Exoplaneetta 42 Dragonis b">
-    
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            
-        </p>
-        <br> <br>
-
-        <img class="img_right" src="47_Ursae_Majoris_b.png" width="240" height="240" 
-        alt="Exoplaneetta 47 Ursae Majoris b">
-    
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            
-        </p>
-        <br> <br>
-
-        <img class="img_right" src="BD+14_4559_b.png" width="240" height="240" 
-        alt="Exoplaneetta BD+14 4559 b">
-    
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            
-        </p>
+      <br />
+      <br />
     </div>
+    <div class="pos_center">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.
+      </p>
+      <img
+        class="img_right"
+        src="47_Ursae_Majoris_b-modified.png"
+        alt="Exoplaneetta 47 Ursae Majoris b"
+      />
 
-</body>
+      <br />
+      <br />
+    </div>
+    <div class="pos_center">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.
+      </p>
+      <img
+        class="img_right"
+        src="BD+14_4559_b-modified.png"
+        alt="Exoplaneetta BD+14 4559 b"
+      />
+    </div>
+    <footer class="footer">
+      <div
+        class="footerContainer1"
+        style="display: flex; flex-direction: column"
+      >
+        <p>Nicholas Mononen - Sivun ylläpitäjä</p>
+        <p>linnun.rata@gmail.com</p>
+      </div>
+      <h2>OTA YHTEYTTÄ</h2>
+      <div
+        class="footerContainer1"
+        style="display: flex; flex-direction: column"
+      >
+        <p>Tommi Rajamäki - Tähtitietelijä</p>
+        <p>Puh. 050 123 6547</p>
+      </div>
+    </footer>
+  </body>
 </html>

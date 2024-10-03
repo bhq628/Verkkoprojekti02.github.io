@@ -83,17 +83,19 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   margin: auto;
+  margin-bottom: 0;
   color: whitesmoke;
   background-color: rgb(5, 27, 59);
   font-family: "Oswald";
   font-weight: 100;
 }
 table {
-font-family: Oswald;
-border-collapse: collapse;
-width: 100%;
+  font-family: Oswald;
+  border-collapse: collapse;
+  width: 100%;
 }
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
