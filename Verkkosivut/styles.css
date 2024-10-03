@@ -106,13 +106,13 @@ th {
   color: antiquewhite;
   font-size: 25px;
   font-weight: 300;
-  text-shadow: 2px 2px 2px rgb(97, 97, 203);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 tr:nth-child(even) {
   background-color: #ddddddc4;
 }
 .planeetta {
-  width: 120px;
-  height: 100px;
+  width: 13vw;
+  height: 13vw;
   border-radius: 20%;
 }
