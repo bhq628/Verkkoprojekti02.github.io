@@ -16,44 +16,84 @@
           <img src="linnunratalogo1.jpg" class="logo1" />
           <h1 class="logotxt">LINNUNRATA</h1>
         </div>
-        <button class="navigation">Aurinkokuntamme Planeetat</button>
+        <button class="navigation" onclick="document.location='Sivu2.html'">
+          Aurinkokuntamme Planeetat
+        </button>
+        <button class="navigation" onclick="document.location='Sivu3.html'">
+          Sivu 3
+        </button>
       </header>
 
       <div class="textContainer">
-        <img
-          src="linnunrata1.jpg"
-          alt="Kuva Linnunradasta"
-          class="linnunrata1"
-        />
-        <p
-          style="
-            font-family: Oswald;
-            padding: 40px;
-            font-size: larger;
-            font-weight: 100;
-          "
-        >
-          Linnunrata on galaksi, jossa Maa ja aurinkokuntamme sijaitsevat.
-          Muodoltaan Linnunrata on kiekon muotoinen sauvaspiraaligalaksi ja
-          kooltaan keskimääräistä galaksia suurempi. Linnunradassa on satoja
-          miljardeja tähtiä. Oma aurinkokuntamme sijaitsee 26 000 valovuoden (8
-          000 parsekin, pc) ± 1 400 valovuoden etäisyydellä galaksin keskustasta
-          Orionin haaraksi kutsutussa kierteishaaran osassa. Linnunradan
-          keskustassa on pistemäinen radiolähde Sagittarius A* ja
-          todennäköisesti supermassiivinen musta aukko. Linnunrata kuuluu
-          galaksijoukkoon, jossa on kolme suurta ja yli 50 pientä
-          kääpiögalaksia. Näistä Linnunrata on toiseksi suurin. Linnunradalla on
-          seuralaisenaan useita kääpiögalakseja. Johtuen sijainnistamme vain 20
-          valovuotta galaksin keskitason yläpuolella näemme Linnunradan
-          yötaivaalla koko taivaankannen halki kulkevana himmeänä juovana.
-          Pimentävien pölypilvien takia näemme siitä vain osan, mutta muilla
-          kuin näkyvällä valon aallonpituuksilla on mahdollista havaita
-          pölypilvien takaa tulevaa säteilyä.
-        </p>
+        <h2 style="font-weight: 300; font-size: 30px; padding: 40px">
+          Mikä on Linnunrata?
+        </h2>
+        <div class="imgContainer" style="display: flex; margin: auto">
+          <img
+            src="linnunrata1.jpg"
+            alt="Kuva Linnunradasta"
+            style="
+              height: 350px;
+              width: 30vw;
+
+              padding-left: 30px;
+              padding-top: 50px;
+            "
+          />
+          <p
+            style="
+              font-family: Oswald;
+              padding: 40px;
+              font-size: larger;
+              font-weight: 100;
+            "
+          >
+            Linnunrata on galaksi, jossa Maa ja aurinkokuntamme sijaitsevat.
+            Muodoltaan Linnunrata on kiekon muotoinen sauvaspiraaligalaksi ja
+            kooltaan keskimääräistä galaksia suurempi. Linnunradassa on satoja
+            miljardeja tähtiä. Oma aurinkokuntamme sijaitsee 26 000 valovuoden
+            (8 000 parsekin, pc) ± 1 400 valovuoden etäisyydellä galaksin
+            keskustasta Orionin haaraksi kutsutussa kierteishaaran osassa.
+            Linnunradan keskustassa on pistemäinen radiolähde Sagittarius A* ja
+            todennäköisesti supermassiivinen musta aukko. Linnunrata kuuluu
+            galaksijoukkoon, jossa on kolme suurta ja yli 50 pientä
+            kääpiögalaksia. Näistä Linnunrata on toiseksi suurin. Linnunradalla
+            on seuralaisenaan useita kääpiögalakseja. Johtuen sijainnistamme
+            vain 20 valovuotta galaksin keskitason yläpuolella näemme
+            Linnunradan yötaivaalla koko taivaankannen halki kulkevana himmeänä
+            juovana. Pimentävien pölypilvien takia näemme siitä vain osan, mutta
+            muilla kuin näkyvällä valon aallonpituuksilla on mahdollista havaita
+            pölypilvien takaa tulevaa säteilyä.
+          </p>
+        </div>
+        <iframe
+          class="upotus"
+          width="360"
+          height="315"
+          src="https://www.youtube.com/embed/1zJ9FnQXmJI?si=7sCHjfk_Av9UXHSL"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
       <footer class="footer">
-        <h2>linnun.rata@gmail.com</h2>
-        <h2>Puh. 050 123 6547</h2>
+        <div
+          class="footerContainer1"
+          style="display: flex; flex-direction: column"
+        >
+          <p>Nicholas Mononen - Sivun ylläpitäjä</p>
+          <p>linnun.rata@gmail.com</p>
+        </div>
+        <h2>OTA YHTEYTTÄ</h2>
+        <div
+          class="footerContainer1"
+          style="display: flex; flex-direction: column"
+        >
+          <p>Tommi Rajamäki - Tähtitietelijä</p>
+          <p>Puh. 050 123 6547</p>
+        </div>
       </footer>
     </div>
   </body>
