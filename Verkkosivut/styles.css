@@ -109,7 +109,7 @@ h2 {
 table {
   font-family: Oswald;
   border-collapse: collapse;
-  width: 90%;
+  width: 70%;
   margin: auto;
 }
 td,
@@ -119,15 +119,15 @@ th {
   padding: 10px;
   font-family: "Oswald";
   color: antiquewhite;
-  font-size: 28px;
+  font-size: 2vw;
   font-weight: 300;
-  text-shadow: 2px 2px 2px rgb(97, 97, 203);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 tr:nth-child(even) {
   background-color: #ddddddc4;
 }
 .planeetta {
-  width: 120px;
-  height: 100px;
+  width: 10vw;
+  height: 10vw;
   border-radius: 20%;
 }
