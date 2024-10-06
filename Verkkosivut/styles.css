@@ -13,13 +13,17 @@ h1 {
 h2 {
   color: antiquewhite;
   font-family: "Oswald";
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 300;
   text-shadow: 2px 2px 2px rgb(97, 97, 203);
 }
 .logoContainer {
+  width: fit-content;
   display: flex;
   flex-direction: row;
+}
+.logoContainer:hover {
+  cursor: pointer;
 }
 .logo1 {
   height: 150px;
@@ -30,31 +34,39 @@ h2 {
 }
 .header {
   display: flex;
+  width: 95vw;
+  margin-right: 40px;
   justify-content: space-between;
 }
 .linnunrata1 {
-  height: 400px;
+  height: auto;
   width: 600px;
+  min-width: 350px;
   border-radius: 10px;
 }
 .textContainer {
   margin: auto;
   margin-bottom: 40px;
   line-height: 25px;
-  align-self: center;
+
   display: flex;
   flex-direction: column;
-
+  flex-wrap: wrap;
   height: fit-content;
-  width: 70vw;
+  width: 60vw;
+  min-width: 300px;
   /*padding-bottom: 50px;*/
   background-color: black;
   color: antiquewhite;
-  border: 5px solid rgb(15, 8, 52);
+  border: 3px solid rgb(15, 8, 52);
   border-radius: 10px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 620px) {
+  .textContainer {
+    flex-direction: column;
+  }
   .imgContainer {
+    display: flex;
     flex-direction: column;
   }
 }
@@ -64,6 +76,7 @@ h2 {
   color: antiquewhite;
   height: 80px;
   width: 170px;
+  float: left;
   margin-top: 30px;
   margin-right: 20px;
   border: 2px solid black;
@@ -78,6 +91,8 @@ h2 {
 }
 .upotus {
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .footer {
   height: 15vh;
