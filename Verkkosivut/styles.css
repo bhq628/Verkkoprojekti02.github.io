@@ -54,13 +54,14 @@ h2 {
   flex-wrap: wrap;
   height: fit-content;
   width: 60vw;
-  min-width: 300px;
+  min-width: 310px;
   /*padding-bottom: 50px;*/
   background-color: black;
   color: antiquewhite;
   border: 3px solid rgb(15, 8, 52);
   border-radius: 10px;
 }
+
 @media screen and (max-width: 620px) {
   .textContainer {
     flex-direction: column;
@@ -96,7 +97,7 @@ h2 {
 }
 .footer {
   height: 15vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
