@@ -61,6 +61,11 @@ h2 {
   border: 3px solid rgb(15, 8, 52);
   border-radius: 10px;
 }
+.submitBtn {
+  color: blue;
+  height: 20px;
+  width: fit-content;
+}
 
 @media screen and (max-width: 620px) {
   .textContainer {

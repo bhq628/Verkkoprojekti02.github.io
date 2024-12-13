@@ -12,6 +12,7 @@
     </style>
   </head>
   <body>
+    <script src="script.js"></script>
     <div class="mainContainer">
       <header class="header">
         <div class="logoContainer" onclick="document.location='index.html'">
@@ -100,6 +101,35 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
+        <div className="queryBox" id="queryBox">
+          <h4
+            style="
+              color: rgb(237, 237, 229);
+              font-family: Oswald;
+              padding-bottom: 20px;
+              padding-left: 40px;
+            "
+          >
+            Osaatko nimetä yhden aurinkokuntamme planeetoista?
+          </h4>
+          <div class="inputDiv" style="padding-left: 40px">
+            <input id="inputField" />
+          </div>
+          <div class="btnDiv" style="padding-left: 95px; padding-top: 10px">
+            <button class="submitBtn" id="submitBtn" onclick="getPlanet()">
+              Lähetä
+            </button>
+          </div>
+          <p
+            id="answer"
+            style="
+              color: rgb(237, 237, 229);
+              font-family: Oswald;
+              padding-bottom: 20px;
+              padding-left: 40px;
+            "
+          ></p>
+        </div>
       </div>
       <a
         style="
